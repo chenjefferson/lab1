@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+.thumbnail {
+    border: 5px solid black;
+}
+
+.project {
+    background-color: gray;
+    margin-left: 10px;
+}

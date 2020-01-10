@@ -1,17 +1,50 @@
+:root {
+    --pastelindigo: #869ffa;
+    --pastelpurple: #c986fa;
+    --pastelblue: #86d9f9;
+    --seas: #87c0d8;
+    --darkseas: #70a9bc;
+}
+
 h1, h2, h3 {
     font-family: "Roboto Slab";
 }
 
 p, span {
     font-family: "Roboto";
+    text-indent: 2em;
+    font-size: 2rem;
 }
 
 figcaption {
     font-family: "Open Sans";
 }
 
+.project-banner {
+    background-color: var(--seas);
+    color: white;
+
+    font-size: 2.5rem;
+}
+
+.project-icon {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.footer {
+    background-color: var(--darkseas);
+    color: white;
+
+    font-family: "Roboto Slab";
+}
+
 #landing {
-    /* background-image: url(https://i.ytimg.com/vi/K1QICrgxTjA/maxresdefault.jpg); */
+    background-image: url(images/hike.jpg);
+    background-color: var(--seas);
+    color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

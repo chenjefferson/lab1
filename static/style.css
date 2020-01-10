@@ -1,11 +1,18 @@
-body {
-    background-color: lightblue;
-}
-.thumbnail {
-    border: 5px solid black;
+h1, h2, h3 {
+    font-family: "Roboto Slab";
 }
 
-.project {
-    background-color: gray;
-    margin-left: 10px;
+p, span {
+    font-family: "Roboto";
+}
+
+figcaption {
+    font-family: "Open Sans";
+}
+
+#landing {
+    /* background-image: url(https://i.ytimg.com/vi/K1QICrgxTjA/maxresdefault.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
